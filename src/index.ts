@@ -1,7 +1,7 @@
 
 import { GetCommand } from '@aws-sdk/lib-dynamodb';
 import { getClients } from './lib/dynamoDb';
-import * as dbConfig from '../jest-dynalite-config';
+import * as dbConfig from '../testing/jest-dynalite-config';
 
 type User = {
   userId: string

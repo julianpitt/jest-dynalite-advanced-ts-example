@@ -1,5 +1,5 @@
 import { startDb, stopDb, createTables, deleteTables } from 'jest-dynalite';
-import * as dbConfig from '../jest-dynalite-config';
+import * as dbConfig from '../testing/jest-dynalite-config';
 import * as lib from './index';
 import { getClients } from './lib/dynamoDb';
 import { PutCommand } from '@aws-sdk/lib-dynamodb';
